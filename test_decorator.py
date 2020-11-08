@@ -6,11 +6,13 @@ def test_generate_dlang_code() -> None:
         pass
 
     s = generate_dlang_code(empty)
+    print(s)
 
     def nonce_list():
         a = [1, 'two', 3, '4']
 
     s = generate_dlang_code(nonce_list)
+    print(s)
 
     def empty_list():
         a = []
@@ -20,8 +22,9 @@ def test_generate_dlang_code() -> None:
         a = 1
 
     s = generate_dlang_code(empty_list)
-    pass
+    print(s)
 
+test_generate_dlang_code()
 # @(dlang_options=, )
 
 #Automatic Type Inference#
