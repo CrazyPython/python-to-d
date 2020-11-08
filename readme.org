@@ -1,0 +1,13 @@
+tries t
+
+1. good python to good dlang
+2. readable idiomatic dlang output
+
+
+Currently can't have dynamic type
+Array literals are not supported
+Array literals must have
+
+readable but unformatted D code
+
+*args are not implemeted
